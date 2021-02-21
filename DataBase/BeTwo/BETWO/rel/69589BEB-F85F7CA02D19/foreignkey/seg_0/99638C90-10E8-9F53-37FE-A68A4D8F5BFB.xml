@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99638C90-10E8-9F53-37FE-A68A4D8F5BFB" containerWithKeyObject="4725C594-3608-3BD9-7995-CA50504F119C" localFKIndex="D513A4E0-BDA4-F8D5-6D43-95E0C49A6C6D" name="FK_BETWO_VIDEO_ELEARNING">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>E2F8981D-62A3-4F10-577A-D079EE7F1CA1</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<referredTableLongName>T_BETWO_VIDEO_ELEARNING</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>03F3F8B0-D856-4F1E-1BF3-2F86123A31E6</referredTableID>
+<keyObject>DB9DB6BC-7B41-F10A-0F6F-44E93B20CB38</keyObject>
+<referredKeyID>DB9DB6BC-7B41-F10A-0F6F-44E93B20CB38</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cd_video</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

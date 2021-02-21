@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5EBB4852-6CBB-752E-D5CF-029A8C5215CC" containerWithKeyObject="00C5CA27-A1D6-3C39-8FD1-985FB031153E" localFKIndex="1ECBCDFE-6420-1229-C7E5-BD45B46D8AF4" name="FK_BETWO_ETAPA_JOGO">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>A7B75204-135C-C334-976D-00CF852A7892</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<referredTableLongName>T_BETWO_ETAPA_JOGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4725C594-3608-3BD9-7995-CA50504F119C</referredTableID>
+<keyObject>757F68F8-0A21-D6D4-3261-AB1FF37B26E6</keyObject>
+<referredKeyID>757F68F8-0A21-D6D4-3261-AB1FF37B26E6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_jogo,nr_etapa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

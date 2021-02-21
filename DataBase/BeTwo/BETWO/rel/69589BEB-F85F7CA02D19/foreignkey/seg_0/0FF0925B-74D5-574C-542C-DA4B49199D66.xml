@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0FF0925B-74D5-574C-542C-DA4B49199D66" containerWithKeyObject="00C5CA27-A1D6-3C39-8FD1-985FB031153E" localFKIndex="95132DA6-8C31-5EEC-CE72-F70AC43CFA1A" name="FK_BETWO_USUARIO">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>AE58CE1F-E7C8-C3D8-7F10-19F71A4376CF</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<referredTableLongName>T_BETWO_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43551BF7-8412-851B-B46F-2ADB32941959</referredTableID>
+<keyObject>7D9E435B-46BE-FB20-C6AA-0FA7A0ADCE44</keyObject>
+<referredKeyID>7D9E435B-46BE-FB20-C6AA-0FA7A0ADCE44</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

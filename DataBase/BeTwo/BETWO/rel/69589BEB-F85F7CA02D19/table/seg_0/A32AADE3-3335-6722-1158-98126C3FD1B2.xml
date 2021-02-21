@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A32AADE3-3335-6722-1158-98126C3FD1B2" name="T_BETWO_QUIZ">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>BB13F3BC-7435-0A7A-AF62-43E45CC8B941</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_quiz" id="0681D817-B1CB-C7D6-92AA-319D43550A91">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>67703FED-2650-1DCB-5008-EAE08FE6A9F5</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_estrelas_quiz" id="36CF906F-2BA0-BDA7-ACE9-2B2844A9AF27">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>11AE8813-4FFE-6D85-501F-6A1F7CA94F03</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_pergunta" id="2F72992C-8298-F5A6-073D-A6C40A078C84">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>D9E22B23-2287-1053-D152-59BE2453D203</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000</dataTypeSize>
+<ownDataTypeParameters>3000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_respostaA" id="32D57C5A-FE04-7CE6-8F00-4F169ACD07A9">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>07D697E8-216C-A001-E979-A373EA4A9B33</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_respostaB" id="540E769C-7751-AC68-862B-2109945F125F">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>2DF7F5B6-3C93-0B00-D885-9B887B44D2F6</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_respostaC" id="1364656F-5205-9C1E-5757-C6FA8D06DF75">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>7DDDF292-5B93-0EEF-62CD-C84277186BC7</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_respostaD" id="025BFFD4-5E4F-DAE5-9539-CCC3A9EDA8DF">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>253C37A6-4D2A-70C4-0CF4-9DA2B3AA5FDD</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C1F8AA7-7D72-7019-6EC5-BB45B2D9B4F9" name="PK_T_BETWO_QUIZ">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>A27AD46E-F249-E102-4B50-A905857A8C23</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0681D817-B1CB-C7D6-92AA-319D43550A91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

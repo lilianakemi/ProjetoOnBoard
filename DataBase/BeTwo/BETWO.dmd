@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BETWO" id="F090C6AA-02E2-16BA-3C46-1D8889501AA0" version="3.5">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 14:27:18 UTC</createdTime>
+<ownerDesignName>BeTwo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F090C6AA-02E2-16BA-3C46-1D8889501AA0</designId>
+</OSDM_Design>

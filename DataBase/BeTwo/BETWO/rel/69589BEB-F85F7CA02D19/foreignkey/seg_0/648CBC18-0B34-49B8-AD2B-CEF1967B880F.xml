@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="648CBC18-0B34-49B8-AD2B-CEF1967B880F" containerWithKeyObject="4725C594-3608-3BD9-7995-CA50504F119C" localFKIndex="D60442DE-D17D-320D-612E-3BB4CB69900D" name="FK_BETWO_QUIZ">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>079002CE-FC68-3FF6-8D65-E9E1E2DB7B95</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<referredTableLongName>T_BETWO_QUIZ</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A32AADE3-3335-6722-1158-98126C3FD1B2</referredTableID>
+<keyObject>7C1F8AA7-7D72-7019-6EC5-BB45B2D9B4F9</keyObject>
+<referredKeyID>7C1F8AA7-7D72-7019-6EC5-BB45B2D9B4F9</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cd_quiz</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

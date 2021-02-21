@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CC937083-1643-880A-3969-8DAEBE876AFA" name="T_BETWO_ATIV">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_atividade" id="62E71643-D872-A9B5-6F19-3F2ADF317A36">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<importedID>C40A55DF-8E61-DF3C-1EC5-7B72FFB8F87B</importedID>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_estrelas_atv" id="50B8CD9E-3722-D11B-206A-7EA7FAB5239A">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<importedID>17EE0B4A-E1CB-534E-BCA0-0F5F88A8EDF8</importedID>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_atividade" id="0B92E332-30C9-B5DB-B001-70085EFAFDC8">
+<createdBy>Augusto</createdBy>
+<createdTime>2020-10-29 01:43:08 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000</dataTypeSize>
+<ownDataTypeParameters>3000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB2DA339-F574-1F5E-1D35-36B8B7A43BC0" name="PK_T_BETWO_ATIV ">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62E71643-D872-A9B5-6F19-3F2ADF317A36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

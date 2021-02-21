@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B094A9B6-9CC4-49D3-5BEB-451484E045ED" name="T_BETWO_VIDEO_ELEARNING">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:17 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_video" id="EC9D7F49-DE87-26F4-46BA-43824B1C6A76">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:17 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<importedID>A1A2C574-D693-69B0-512E-E14848052154</importedID>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_url_video" id="BBEBB97B-10AC-85BF-8BBB-44C66BF073BB">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<importedID>4C6688E1-FDD0-F5D8-A459-0B6FCCE2F0DB</importedID>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_estrelas_elearning" id="FE146374-A292-D0E3-59C0-54F9A65861C9">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<importedID>33851E69-5186-C2C9-FF6C-0C5E39362417</importedID>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_video" id="53A8103C-79AB-3B9D-E897-0A41DBB1FC2F">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<importedID>13F42A9A-73C1-59A3-E354-FB88BF2ED7C7</importedID>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000</dataTypeSize>
+<ownDataTypeParameters>3000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="60E9EE29-86CC-E264-62AB-35A01EA9E978" name="PK_T_BETWO_ELEARNING ">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC9D7F49-DE87-26F4-46BA-43824B1C6A76</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

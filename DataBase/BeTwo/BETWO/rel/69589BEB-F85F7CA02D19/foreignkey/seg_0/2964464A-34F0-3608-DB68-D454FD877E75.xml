@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2964464A-34F0-3608-DB68-D454FD877E75" containerWithKeyObject="4725C594-3608-3BD9-7995-CA50504F119C" localFKIndex="665DDE00-3FAC-CDB6-052A-73B55E7769DF" name="FK_BETWO_JOGO">
+<createdBy>jessi</createdBy>
+<createdTime>2020-10-31 00:20:40 UTC</createdTime>
+<generatorID>0605E663-F83A-2E8F-3DAE-F0D75B6077B6</generatorID>
+<ownerDesignName>BETWO</ownerDesignName>
+<referredTableLongName>T_BETWO_JOGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4C112D86-F980-EB65-880B-AD49D8C85782</referredTableID>
+<keyObject>94800BD8-7475-CFE7-6711-88AD1E3D472D</keyObject>
+<referredKeyID>94800BD8-7475-CFE7-6711-88AD1E3D472D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_jogo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53417939-7EFA-C0DA-E8AC-10B38B267177" name="T_BETWO_USUARIO">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_usuario" id="2C3CBD55-FF25-4661-C5A5-2DE86AEB74D1">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<importedID>7321ACB3-F950-AD59-445D-50CB9C512427</importedID>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_login" id="6776BCF0-346C-9249-9087-D31717F9D254">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<importedID>1B50FC11-AB8E-FD49-46A7-BBAFE8868109</importedID>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_senha" id="DF6A7D63-EFD4-BA92-68F7-7D4206CD8E3E">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<importedID>B66A142D-AE23-AA30-3279-6AC19C8BC4D3</importedID>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_ativo" id="AA21489B-BEE1-7BD8-6827-E35C3A8E4FE3">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<importedID>88ECA100-2565-BDEF-5432-064BBD62239F</importedID>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_completo" id="3BC53363-69EC-23E6-4218-8BE1ADE600C0">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<importedID>DD8EEF0E-60E8-9DD9-EA99-AAE5BCF42212</importedID>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="34F21C29-E73E-11AE-5351-51B47EE84333">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<importedID>EF9617BD-1BA7-EFBE-DA82-E2BB13BEEE14</importedID>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B82B4E80-76F9-BF45-48F3-A816D723F73F" name="PK_T_BETWO_USUARIO ">
+<createdBy>jessi</createdBy>
+<createdTime>2020-09-17 16:47:18 UTC</createdTime>
+<ownerDesignName>BETWO</ownerDesignName>
+<engineerTo>
+<item key="69589BEB-AF39-2E9F-DED8-F85F7CA02D19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C3CBD55-FF25-4661-C5A5-2DE86AEB74D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
