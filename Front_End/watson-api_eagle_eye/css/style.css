@@ -1,0 +1,438 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Nunito+Sans&display=swap');
+
+/* mini reset */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* border: 1px solid #000; */
+/* border: 1px solid cornsilk  */
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Main - Pai de todos */
+.main{
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/* Inicio principal */
+
+/* pagina index  */
+.principal{
+width: 100%;
+height:100vh;
+padding: 300px 100px 500px 250px;
+/* background-position: 50%; */
+/* background-repeat: no-repeat;
+background-size: cover; */
+
+
+}
+
+/* pagina quiz  */
+.principal2{
+  width: 100%;
+  height:100vh;
+  padding: 40px 10px;
+  /* background-position: 50%; */
+ 
+  }
+
+/* pagina acertos  */
+.principal3{
+  width: 100%;
+  height:100vh;
+  align-items: center;
+  padding: 0px 0px 0px 450px;
+  /* background-position: 50%; */
+  /* border: 1px solid cornsilk; */
+}
+
+.principal4{
+  width: 100%;
+  height:100vh;
+  /* align-items: center; */
+  /* background-position: 50%; */
+  /* background-position: cover; */
+  border: 1px solid cornsilk;
+  /* padding: 50px 100px 500px 50px; */
+}
+
+.principal5{
+  width: 100%;
+  height:100vh;
+  /* align-items: center; */
+  padding: 50px 100px 0px 230px;
+  /* background-position: 100%; */
+  /* border: 1px solid cornsilk  */
+ 
+}
+
+
+/* Pagina index */
+.pagina1{
+  background-image: url(../images/index1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  padding: 270px 20px 0px 230px;
+  
+}
+
+.pagina1_2{
+  background-image: url(../images/login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  
+}
+
+/* pagina 2 é quiz  */
+.pagina2{
+  background-image: url(../images/quiz.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.pagina2_1{
+  background-image: url(../images/quiz2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* pagina acertos 3 é acertos  */
+.pagina3{
+  background-image: url(../images/acertou.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.pagina3_1{
+  background-image: url(../images/acertou2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* pagina task é 4   */
+.pagina4{
+  background-image: url(../images/task.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pagina4_1{
+  background-image: url(../images/task2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pagina4_2{
+  background-image: url(../images/task3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.chamada{
+  width:15%;
+  height: 40vh;
+  background: rgb(244, 242, 242);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0.3;
+  margin: 18px 40px;
+
+}
+
+.chamada-direita{
+position: absolute;
+right: 10px;
+}
+
+.chamada-esquerda{
+position: absolute;
+left: 10px;
+}
+
+
+
+/* Botoes das fases */
+
+.container{
+ display: flex; 
+ flex-direction: row;
+ align-items: center; 
+/*   align-items: flex-end; */
+/* border: 1px solid cornsilk; */
+
+}
+
+
+.container2{
+  display: flex; 
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* margin: 40px; */
+  /* border: 1px solid cornsilk */
+}
+
+.container3{
+  width: 50%;
+  height: 95vh;
+  display: flex; 
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: cornflowerblue;
+
+}
+
+.container4{
+  width: 100%;
+  height:90vh;
+  display: flex; 
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+ 
+}
+
+.container5{
+  width: 100%;
+  height:3vh; 
+  /* display: flex;  */
+  /* flex-direction: row;
+  align-items: center; */
+  /* justify-content: center; */
+  /* border: 1px solid cornsilk */
+}
+
+.box-1 {
+  width: 300px;
+  height: 25vh;
+/* padding: 10px; */
+  margin: 20px;
+    /* background: rgb(244, 242, 242); */
+
+}
+
+
+.box-2 {
+  width: 80%;
+  height: 25vh;
+  padding: 15px;
+  margin: 10px ;
+  /* background: rgb(244, 242, 242); */
+
+}
+
+
+.box-3 {
+  width: 80%;
+  height: 50vh;
+  padding: 2px 0px 750px;
+  text-align: center;
+}
+
+.box-4 {
+  width: 80%;
+  min-width: 8px;
+  height: 100px;
+  /* margin: 0px 0px 70px 1150px; 
+  text-align: center;  */
+  text-align: end;
+  margin:  0px 20px 80px 400px;
+  padding-top: 50px;
+}
+
+.box-5 {
+  width: 80%;
+  height: 2vh;
+  /* padding: 5px;  */
+  text-align: center;
+}
+
+
+/* Container fonte  */
+
+.containertexto{
+  width: 100%;
+  height:30vh;
+  padding: 20px 0px 0px 40px;
+/* border: 1px solid cornsilk */
+}
+
+
+/* .containertexto h1{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+} */
+
+.containertexto h2{
+  font-size: 3rem;
+  color: white;
+}
+
+.containertexto h3{
+  font-size: 2.8rem;
+  color: white;
+}
+
+
+.containerTextoAcertou{
+  width: 100%;
+  height:30vh;
+  /* border: 1px solid cornsilk */
+}
+
+.containerTextoAcertou h1{
+  font-size: 2rem;
+  color: rgb(29, 22, 148);
+}
+
+.containerTextoAcertou h2{
+  font-size: 3rem;
+  color: white;
+  /* border: 1px solid cornsilk  */
+ }
+
+.btn{
+  margin-top: 35px;
+ }
+
+.btn2{
+  /* position: relative; */
+  margin-top: 5px;
+
+  }
+/* Imagem responsiva */
+/* Criando as medias */
+/* Video Responsivo */
+
+/* ---------------------------responsivo----------------------- */
+
+@media (max-width: 1024px) {
+  /* index */
+.chamada{
+  width: 20%;
+ }
+ .box-1 {
+ padding: 2px;
+}
+
+ /* quiz 1 */
+ .containertexto h2{
+  font-size: 2.5rem;
+}
+
+ .box-2{
+  height: 9vh;
+  padding: 2px;
+  margin-top: 80px;
+}
+
+/* quiz 2 */
+.containertexto h3{
+font-size: 2.3rem;
+}
+
+/* task 1 */
+
+
+/* task 2 */
+
+/* acertou */
+.containerTextoAcertou h1{
+  font-size: 1.5rem;
+}
+.containerTextoAcertou h2{
+  font-size: 2.5rem;
+}
+.btn{
+margin-top: 5px;
+}
+ 
+
+
+@media(max-width:800px){
+/* index */
+.chamada{
+  width: 23%;
+ }
+
+.box-1 {
+  padding: 0px;
+  margin: 0;
+ }
+
+
+  /* quiz 1*/
+  .containertexto h2{
+    font-size: 2.3rem;
+  }
+
+  .containertexto h3{
+    font-size: 2rem;  
+  } 
+
+  /* task 2 */
+
+
+  .containerTextoAcertou h1{
+    font-size: 1.5rem;
+  }
+  
+  .containerTextoAcertou h2{
+    font-size: 1.8rem;
+  }
+
+}
+
+@media(max-width:500px){
+.chamada{
+  width: 34%;
+}
+
+
+/* quiz 1*/
+.containertexto h2{
+    font-size: 2.1rem;
+  }
+
+.containertexto h3{
+  font-size: 1.8rem;
+}
+}
+
+/***************** Video Responsivo ********************/
+
+.video-responsivo {
+  position: relative;
+  height: 0;
+  padding-bottom: 45%;
+}
+
+.video-responsivo iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 80%;
+}
+
+
+}
